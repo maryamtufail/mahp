@@ -1,0 +1,30 @@
+{
+    "expertiseItems": [
+      {
+        "title": "Full-Stack Development",
+        "icon": "https://assets-global.website-files.com/651e827c41af7f43a5d770e2/6570360d6e7b5aa59f656289_ic-fullstack.svg",
+        "description": "The artistry and precision of Full-Stack Development. From crafting interactive front-end experiences that captivate users to architecting robust back-end systems."
+      },
+      {
+        "title": "UI/UX Design Excellence",
+        "icon": "https://assets-global.website-files.com/651e827c41af7f43a5d770e2/657036581b95671e3b689e48_ic-uiux.svg",
+        "description": "Each endeavor is a carefully curated exploration of user-centric design principles, from wireframes that lay the foundation to visually stunning interfaces that elevate user experiences."
+      },
+      {
+        "title": "Mobile App Development",
+        "icon": "https://assets-global.website-files.com/651e827c41af7f43a5d770e2/6570360cb44cc2d22ae50385_ic-mobile.svg",
+        "description": "From conceptualization to deployment, each app represents a unique foray into creating seamless mobile experiences. Whether it's developing feature-rich applications for Android or iOS platforms."
+      },
+      {
+        "title": "Web Security",
+        "icon": "https://assets-global.website-files.com/651e827c41af7f43a5d770e2/6570360ca127b989d9402e5e_ic-web-security.svg",
+        "description": "Where safeguarding digital landscapes is both a mission and an art. From fortifying web applications against vulnerabilities to implementing robust security protocols, each project is a testament to my dedication."
+      },
+      {
+        "title": "Cloud Computing & Deployment",
+        "icon": "https://assets-global.website-files.com/651e827c41af7f43a5d770e2/6570360c751d3318c7fb0bf5_ic-cloud.svg",
+        "description": "The domain of cloud computing, each project is a testament to my proficiency in harnessing the scalability, flexibility, and efficiency of cloud services. Whether it's architecting robust cloud infrastructure."
+      }
+    ]
+  }
+  
