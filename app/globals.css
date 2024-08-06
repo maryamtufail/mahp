@@ -3890,10 +3890,10 @@ blockquote {
 }
 
 .logog-wrap {
-  grid-column-gap: 130px;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   display: flex;
+  overflow: hidden;
 }
 
 .logo-title-wrap {
@@ -3916,21 +3916,23 @@ blockquote {
 }
 
 .logo-data {
-  grid-column-gap: 140px;
-  grid-row-gap: 46px;
-  grid-template-rows: auto;
-  grid-template-columns: auto auto auto auto;
-  grid-auto-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   max-width: 75%;
-  display: grid;
+}
+
+.logo-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
 
 .logo {
-  filter: grayscale();
+  filter: grayscale(40%);
   width: 100%;
-  max-width: 140px;
-  max-height: 40px;
+  width: 240px;
+  height: 140px;
 }
 
 .testimonials {
@@ -3958,6 +3960,8 @@ blockquote {
 
 .review-logo {
   filter: grayscale();
+  width: 320px;
+  height: 140px;
 }
 
 .left-arrow {

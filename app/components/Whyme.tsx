@@ -6,10 +6,9 @@ const Whyme: React.FC = () => {
   const [visibleIndex, setVisibleIndex] = useState<number | null>(null);
   const [expertiseItems, setExpertiseItems] = useState<any[]>([]);
 
-  
   useEffect(() => {
     const fetchExpertiseData = async () => {
-      const response = await fetch("/data/work.json");
+      const response = await fetch("/data/whyme.json");
       const data = await response.json();
       setExpertiseItems(data.expertiseItems);
     };
@@ -17,7 +16,6 @@ const Whyme: React.FC = () => {
     fetchExpertiseData();
   }, []);
 
- 
   const toggleVisibility = (index: number) => {
     setVisibleIndex(visibleIndex === index ? null : index);
   };
@@ -29,7 +27,8 @@ const Whyme: React.FC = () => {
           <div className="expertise-left">
             <h2>Why Me</h2>
             <p className="single-text">
-              I specialize in crafting custom solutions that seamlessly blend innovation with functionality.
+              I specialize in crafting custom solutions that seamlessly blend
+              innovation with functionality.
             </p>
           </div>
           <div className="expertise-right">
@@ -40,7 +39,10 @@ const Whyme: React.FC = () => {
                 data-delay="0"
                 className="expertise w-dropdown"
               >
-                <div className="que-title w-dropdown-toggle" onClick={() => toggleVisibility(index)}>
+                <div
+                  className="que-title w-dropdown-toggle"
+                  onClick={() => toggleVisibility(index)}
+                >
                   <div className="exp-head">
                     <img
                       src={item.icon}
@@ -53,7 +55,8 @@ const Whyme: React.FC = () => {
                   <div className="que-icon">
                     <div
                       style={{
-                        transform: 'translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)',
+                        transform:
+                          "translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)",
                       }}
                       className="vertical-line"
                     />
@@ -61,7 +64,10 @@ const Whyme: React.FC = () => {
                   </div>
                 </div>
                 {visibleIndex === index && (
-                  <nav style={{ height: "auto" }} className="ans w-dropdown-list">
+                  <nav
+                    style={{ height: "auto" }}
+                    className="ans w-dropdown-list"
+                  >
                     <div className="exp-box">
                       <p className="exp-text">{item.description}</p>
                     </div>
