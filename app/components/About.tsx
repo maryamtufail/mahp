@@ -5,29 +5,32 @@ const Passion: React.FC = () => {
         <div className="passion-wrap">
           <div className="passion-img">
             <img
-              src="https://assets-global.website-files.com/651e827c41af7f43a5d770e2/657006e9f6d56da753b22c7c_passion.jpg"
+              src="/about-hamza.png"
               loading="lazy"
               sizes="100vw"
-              srcSet="https://assets-global.website-files.com/651e827c41af7f43a5d770e2/657006e9f6d56da753b22c7c_passion-p-500.jpg 500w, https://assets-global.website-files.com/651e827c41af7f43a5d770e2/657006e9f6d56da753b22c7c_passion-p-800.jpg 800w, https://assets-global.website-files.com/651e827c41af7f43a5d770e2/657006e9f6d56da753b22c7c_passion-p-1080.jpg 1080w, https://assets-global.website-files.com/651e827c41af7f43a5d770e2/657006e9f6d56da753b22c7c_passion.jpg 1236w"
               alt="Passion Image"
             />
           </div>
           <div className="passion-data">
-            <p className="single-text">
-              From the early days of tinkering with code to becoming a seasoned web developer. Every step has a testament to the power of persistence and learning. The digital world has evolved into a lifelong passion.
-            </p>
+            <h2>About Me</h2>
             <div className="passion-info">
               <div className="passion-block">
-                <div className="passion-text">Fusion of Design &amp; Functionality</div>
-                <p className="single-text">Highlighting the synergy between aesthetics and usability in your work.</p>
+                <p className="single-text">
+                  Hi there! I'm Muhammad Ameer Hamza, a passionate Full-Stack
+                  Software Engineer transforming ideas into exquisite solutions.
+                  With a diverse skill set in both front-end and back-end
+                  development, I excel at creating seamless user experiences and
+                  efficient, scalable solutions. Driven by an unwavering passion
+                  for technology, I thrive on solving complex challenges and
+                  continuously learning to stay at the forefront of industry
+                  trends.
+                </p>
               </div>
-              <div className="passion-block">
-                <div className="passion-text">Specialization or Area of Interest</div>
-                <p className="single-text">Mentioning a specific aspect of technology that fascinates you.</p>
-              </div>
-              <div className="passion-block">
+              <div className="passion-block sub-passion">
                 <div className="passion-text">Passion for Web Development</div>
-                <p className="single-text">Discussing your enthusiasm for creating digital experiences.</p>
+                <p className="single-text">
+                  Discussing your enthusiasm for creating digital experiences.
+                </p>
               </div>
             </div>
           </div>

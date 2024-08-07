@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
             <div id="272c1674-3eaf-376a-b63f-a7ba3c43af46" className="hero-img">
               <div style={{ display: "block" }} className="on-scroll"></div>
               <img
-                src="https://assets-global.website-files.com/651e827c41af7f43a5d770e2/6570595cded1ccc8e287557d_hero.jpg"
+                src="./hamza.jpg"
                 loading="eager"
                 sizes="(max-width: 479px) 92vw, (max-width: 767px) 90vw, (max-width: 991px) 44vw, 37vw"
                 alt="Hero Image"

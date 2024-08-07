@@ -1,0 +1,33 @@
+[
+    {
+      "name": "John Doe",
+      "title": "CEO, Acme Corp",
+      "testimonial": "Their work was exceptional. They exceeded our expectations and delivered a top-notch product.",
+      "image": "https://assets-global.website-files.com/651e827c41af7f43a5d770e2/65704a5d492ae9fcb26e09d4_review-thumb-03.jpg"
+    },
+    {
+      "name": "Jane Smith",
+      "title": "Marketing Manager, Global Tech",
+      "testimonial": "I'm impressed with their creativity and problem-solving skills. They truly understand our brand.",
+      "image": "https://assets-global.website-files.com/651e827c41af7f43a5d770e2/65704a5d492ae9fcb26e09d4_review-thumb-03.jpg"
+    },
+    {
+      "name": "Michael Johnson",
+      "title": "Director of Operations, Innovate Inc.",
+      "testimonial": "Their team was a pleasure to work with. They were efficient, responsive, and delivered on time.",
+      "image": "https://assets-global.website-files.com/651e827c41af7f43a5d770e2/65704a5d492ae9fcb26e09d4_review-thumb-03.jpg"
+    },
+    {
+      "name": "Emily Brown",
+      "title": "Product Manager, Tech Solutions",
+      "testimonial": "I highly recommend their services. They helped us improve our website's user experience significantly.",
+      "image": "https://assets-global.website-files.com/651e827c41af7f43a5d770e2/65704a5d492ae9fcb26e09d4_review-thumb-03.jpg"
+    },
+    {
+      "name": "David Miller",
+      "title": "Founder, StartUp Co.",
+      "testimonial": "Their expertise in digital marketing helped us grow our business exponentially.",
+      "image": "https://assets-global.website-files.com/651e827c41af7f43a5d770e2/65704a5d492ae9fcb26e09d4_review-thumb-03.jpg"
+    }
+  ]
+  

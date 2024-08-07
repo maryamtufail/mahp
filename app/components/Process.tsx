@@ -4,7 +4,7 @@ const Process: React.FC = () => {
       <div className="w-layout-blockcontainer container w-container">
         <h2 className="section-title">Work Process</h2>
         <div className="wp-wrap">
-          <div className="wp-block">
+          <div className="wp-block main-block">
             <div>
               <div className="body-small">01</div>
               <h5 className="wp-title">Discovery &amp; Planning</h5>
