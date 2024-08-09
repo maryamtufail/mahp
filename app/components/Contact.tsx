@@ -4,8 +4,8 @@ const Contact: React.FC = () => {
       <div className="w-layout-blockcontainer container w-container">
         <div className="cta-wrap">
           <p className="cta-text">
-            Whether it's a stunning website, a custom software solution, or a
-            seamless mobile app, I'm here to help.
+            Whether it&apos;s a stunning website, a custom software solution, or a
+            seamless mobile app, I&apos;m here to help.
           </p>
           <div className="cta-link-wrap">
             <div>Ready? Let’s</div>

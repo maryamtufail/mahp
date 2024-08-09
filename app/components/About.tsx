@@ -18,7 +18,7 @@ const Passion: React.FC = () => {
             <div className="passion-info">
               <div className="passion-block">
                 <p className="single-text">
-                  Hi there! I'm Muhammad Ameer Hamza, a passionate Full-Stack
+                  Hi there! I&apos;m Muhammad Ameer Hamza, a passionate Full-Stack
                   Software Engineer transforming ideas into exquisite solutions.
                   With a diverse skill set in both front-end and back-end
                   development, I excel at creating seamless user experiences and

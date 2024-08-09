@@ -10,7 +10,7 @@ const Process: React.FC = () => {
               <h5 className="wp-title">Discovery &amp; Planning</h5>
             </div>
             <p className="single-text">
-              I immerse myself in understanding the project's objectives, target
+              I immerse myself in understanding the project&apos;s objectives, target
               audience, and unique requirements.
             </p>
           </div>
