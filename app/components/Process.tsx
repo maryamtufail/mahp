@@ -1,6 +1,6 @@
 const Process: React.FC = () => {
   return (
-    <section className="work-process">
+    <section id="process" className="work-process">
       <div className="w-layout-blockcontainer container w-container">
         <h2 className="section-title">Work Process</h2>
         <div className="wp-wrap">

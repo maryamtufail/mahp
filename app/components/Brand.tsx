@@ -5,59 +5,86 @@ const Brand: React.FC = () => {
   return (
     <section className="brand-logo">
       <div className="w-layout-blockcontainer container w-container">
-        <div className="logo-title-wrap">
-          <div className="logo-dot"></div>
-          <h6 className="logo-title">
-            Companies and industries I’ve created experiences for
-          </h6>
-        </div>
         <div className="logo-wrap">
           <Marquee pauseOnHover={true} direction="left" speed={50}>
-              <div className="logo-row">
-                <img
-                  src="https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/google-logo.png"
-                  loading="lazy"
-                  alt="Logo"
-                  className="logo"
-                />
-                <img
-                  src="https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/microsoft-logo.png"
-                  loading="lazy"
-                  alt="Logo"
-                  className="logo"
-                />
-                <img
-                  src="https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/samsung-logo.png"
-                  loading="lazy"
-                  alt="Logo"
-                  className="logo"
-                />
-                   <img
-                  src="https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/microsoft-logo.png"
-                  loading="lazy"
-                  alt="Logo"
-                  className="logo"
-                />
-                <img
-                  src="https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/samsung-logo.png"
-                  loading="lazy"
-                  alt="Logo"
-                  className="logo"
-                />
-                   <img
-                  src="https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/microsoft-logo.png"
-                  loading="lazy"
-                  alt="Logo"
-                  className="logo"
-                />
-                <img
-                  src="https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/samsung-logo.png"
-                  loading="lazy"
-                  alt="Logo"
-                  className="logo"
-                />
-              </div>
+            <div className="logo-row flex justify-center items-center text-center">
+              <img
+                src="https://img.icons8.com/?size=100&id=123603&format=png&color=000000"
+                loading="lazy"
+                alt="Logo"
+                className="logo"
+              />
 
+              <img
+                src="https://img.icons8.com/?size=100&id=PZQVBAxaueDJ&format=png&color=000000"
+                loading="lazy"
+                alt="Logo"
+                className="logo"
+              />
+
+              <img
+                src="https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000"
+                loading="lazy"
+                alt="Logo"
+                className="logo"
+              />
+              <img
+                src="https://img.icons8.com/?size=100&id=ytC17YjDcKHo&format=png&color=000000"
+                loading="lazy"
+                alt="Logo"
+                className="logo"
+              />
+              <img
+                src="https://img.icons8.com/?size=100&id=SrDTEN0d3OPH&format=png&color=000000"
+                loading="lazy"
+                alt="Logo"
+                className="logo"
+              />
+              <img
+                src="https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000"
+                loading="lazy"
+                alt="Logo"
+                className="logo"
+              />
+              <img
+                src="https://img.icons8.com/?size=100&id=rY6agKizO9eb&format=png&color=000000"
+                loading="lazy"
+                alt="Logo"
+                className="logo"
+              />
+              <img
+                src="https://img.icons8.com/?size=100&id=84710&format=png&color=000000"
+                loading="lazy"
+                alt="Logo"
+                className="logo"
+              />
+              <img
+                src="https://img.icons8.com/?size=100&id=jD-fJzVguBmw&format=png&color=000000"
+                loading="lazy"
+                alt="Logo"
+                className="logo"
+              />
+
+              <img
+                src="https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000"
+                loading="lazy"
+                alt="Logo"
+                className="logo"
+              />
+              <img
+                src="https://img.icons8.com/?size=100&id=9ESZMOeUioJS&format=png&color=000000"
+                loading="lazy"
+                alt="Logo"
+                className="logo"
+              />
+              <img
+                src="https://img.icons8.com/?size=100&id=zJh5Gyrd6ZKu&format=png&color=000000"
+                loading="lazy"
+                alt="Logo"
+                className="logo"
+              />
+              
+            </div>
           </Marquee>
         </div>
       </div>

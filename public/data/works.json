@@ -1,51 +1,74 @@
 [
-    {
-      "id": "1",
-      "href": "https://nolan-template.webflow.io//works/colity",
-      "src": "https://assets-global.website-files.com/656ec578251e19fc1811e22f/656effdee51d846bf3303069_work-thumb-01.jpg",
-      "srcSet": "https://assets-global.website-files.com/656ec578251e19fc1811e22f/656effdee51d846bf3303069_work-thumb-01-p-500.jpg 500w, https://assets-global.website-files.com/656ec578251e19fc1811e22f/656effdee51d846bf3303069_work-thumb-01-p-800.jpg 800w, https://assets-global.website-files.com/656ec578251e19fc1811e22f/656effdee51d846bf3303069_work-thumb-01.jpg 1264w",
-      "title": "Colity",
-      "year": "2023",
-      "categories": [
-        { "id": "1", "href": "https://nolan-template.webflow.io//work-category/cms", "name": "CMS" },
-        { "id": "2", "href": "https://nolan-template.webflow.io//work-category/app", "name": "App" }
-      ]
-    },
-    {
-      "id": "2",
-      "href": "https://nolan-template.webflow.io//works/valora",
-      "src": "https://assets-global.website-files.com/656ec578251e19fc1811e22f/656f016945f30ae5cc50bcf1_work-thumb-02.jpg",
-      "srcSet": "https://assets-global.website-files.com/656ec578251e19fc1811e22f/656f016945f30ae5cc50bcf1_work-thumb-02-p-500.jpg 500w, https://assets-global.website-files.com/656ec578251e19fc1811e22f/656f016945f30ae5cc50bcf1_work-thumb-02-p-800.jpg 800w, https://assets-global.website-files.com/656ec578251e19fc1811e22f/656f016945f30ae5cc50bcf1_work-thumb-02-p-1080.jpg 1080w, https://assets-global.website-files.com/656ec578251e19fc1811e22f/656f016945f30ae5cc50bcf1_work-thumb-02.jpg 1264w",
-      "title": "Valora",
-      "year": "2023",
-      "categories": [
-        { "id": "3", "href": "https://nolan-template.webflow.io//work-category/branding", "name": "Branding" },
-        { "id": "4", "href": "https://nolan-template.webflow.io//work-category/website", "name": "Website" }
-      ]
-    },
-    {
-      "id": "3",
-      "href": "https://nolan-template.webflow.io//works/alite",
-      "src": "https://assets-global.website-files.com/656ec578251e19fc1811e22f/656f01e8f9eee08fece6363b_work-thumb-03.jpg",
-      "srcSet": "https://assets-global.website-files.com/656ec578251e19fc1811e22f/656f01e8f9eee08fece6363b_work-thumb-03-p-500.jpg 500w, https://assets-global.website-files.com/656ec578251e19fc1811e22f/656f01e8f9eee08fece6363b_work-thumb-03-p-800.jpg 800w, https://assets-global.website-files.com/656ec578251e19fc1811e22f/656f01e8f9eee08fece6363b_work-thumb-03-p-1080.jpg 1080w, https://assets-global.website-files.com/656ec578251e19fc1811e22f/656f01e8f9eee08fece6363b_work-thumb-03.jpg 1264w",
-      "title": "Alite",
-      "year": "2023",
-      "categories": [
-        { "id": "5", "href": "https://nolan-template.webflow.io//work-category/saas", "name": "SaaS" },
-        { "id": "6", "href": "https://nolan-template.webflow.io//work-category/website", "name": "Website" }
-      ]
-    },
-    {
-      "id": "4",
-      "href": "https://nolan-template.webflow.io//works/conex",
-      "src": "https://assets-global.website-files.com/656ec578251e19fc1811e22f/656f0224757bc7e278b5a1a1_work-thumb-04.jpg",
-      "srcSet": "https://assets-global.website-files.com/656ec578251e19fc1811e22f/656f0224757bc7e278b5a1a1_work-thumb-04-p-500.jpg 500w, https://assets-global.website-files.com/656ec578251e19fc1811e22f/656f0224757bc7e278b5a1a1_work-thumb-04-p-800.jpg 800w, https://assets-global.website-files.com/656ec578251e19fc1811e22f/656f0224757bc7e278b5a1a1_work-thumb-04.jpg 1264w",
-      "title": "Conex",
-      "year": "2023",
-      "categories": [
-        { "id": "7", "href": "https://nolan-template.webflow.io//work-category/crm", "name": "CRM" },
-        { "id": "8", "href": "https://nolan-template.webflow.io//work-category/app", "name": "App" }
-      ]
-    }
-  ]
-  
+  {
+    "id": "1",
+    "href": "https://www.milacollective.com/",
+    "src": "/assets/project/milacollective.png",
+    "srcSet": "/assets/project/milacollective.png 1264w",
+    "title": "Mila Collective",
+    "year": "2024",
+    "categories": [
+      {
+        "id": "1",
+        "name": "CMS"
+      },
+      {
+        "id": "2",
+        "name": "Website"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "href": "https://carrierlink.io/",
+    "src": "/assets/project/carrier.png",
+    "srcSet": "/assets/project/carrier.png 1264w",
+    "title": "Carrier Link",
+    "year": "2024",
+    "categories": [
+      {
+        "id": "3",
+        "name": "Branding"
+      },
+      {
+        "id": "4",
+        "name": "Website"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "href": "https://withprecision.io/",
+    "src": "/assets/project/withprecision.png ",
+    "srcSet": "/assets/project/withprecision.png 1264w",
+    "title": "With Precision",
+    "year": "2024",
+    "categories": [
+      {
+        "id": "5",
+        "name": "SaaS"
+      },
+      {
+        "id": "6",
+        "name": "Website"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "href": "",
+    "src": "assets/project/marketplug.png",
+    "srcSet": "assets/project/marketplug.png 1264w",
+    "title": "Marketplug XaaS",
+    "year": "2023",
+    "categories": [
+      {
+        "id": "7",
+        "name": "CRM"
+      },
+      {
+        "id": "8",
+        "name": "App"
+      }
+    ]
+  }
+]

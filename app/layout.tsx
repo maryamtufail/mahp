@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { IBM_Plex_Sans } from "next/font/google";
 import "./globals.css";
@@ -7,7 +8,7 @@ import "./globals.css";
 const ibmPlexSan = IBM_Plex_Sans({
   subsets: ["latin"],
   weight: ["200", "400"],
-  variable: "--font-ibm-plexSan"
+  variable: "--font-ibm-plexSan",
 });
 
 export const metadata: Metadata = {
@@ -22,8 +23,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${ibmPlexSan.className} ${ibmPlexSan.variable}`}>{children}
-        <Footer/>
+      <body className={`${ibmPlexSan.className} ${ibmPlexSan.variable}`}>
+        <Navbar />
+        {children}
+        <Footer />
       </body>
     </html>
   );

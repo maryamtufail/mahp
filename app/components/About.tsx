@@ -1,6 +1,8 @@
+import Brand from "./Brand";
+
 const Passion: React.FC = () => {
   return (
-    <section className="passion">
+    <section id="about" className="passion pt-12">
       <div className="w-layout-blockcontainer container w-container">
         <div className="passion-wrap">
           <div className="passion-img">
@@ -32,6 +34,7 @@ const Passion: React.FC = () => {
                   Discussing your enthusiasm for creating digital experiences.
                 </p>
               </div>
+              <Brand />
             </div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 const Hero: React.FC = () => {
   return (
-    <section className="hero">
+    <section className="hero mt-12">
       <div className="w-layout-blockcontainer container w-container">
         <div className="hero-wrap">
           <div className="hero-left">
@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
             <div className="hero-btn-wrap">
               <a
                 id="c2598176-1f9b-1df1-e3df-470053fb9c92"
-                href="https://nolan-template.webflow.io/contact-me"
+                href=""
                 className="hero-btn w-inline-block"
               >
                 <div>Work with me </div>

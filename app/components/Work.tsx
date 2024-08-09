@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useEffect, useState } from "react";
 
@@ -32,7 +32,7 @@ const Work: React.FC = () => {
   }, []);
 
   return (
-    <section className="my-work">
+    <section id="portfolio" className="my-work py-24">
       <div className="w-layout-blockcontainer container w-container">
         <h2 className="section-title">My Selected Works</h2>
         <div className="w-dyn-list">
@@ -55,7 +55,6 @@ const Work: React.FC = () => {
                       src={work.src}
                       sizes="(max-width: 479px) 92vw, (max-width: 991px) 46vw, 47vw"
                       className="work-image"
-                      
                     />
                   </div>
                 </a>
@@ -87,7 +86,6 @@ const Work: React.FC = () => {
             ))}
           </div>
         </div>
-       
       </div>
     </section>
   );

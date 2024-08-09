@@ -3,9 +3,9 @@ import About from "./components/About";
 import Process from "./components/Process";
 import Work from "./components/Work";
 import Whyme from "./components/Whyme";
-import Brand from "./components/Brand";
 import Testimonial from "./components/Testimonial";
 import Contact from "./components/Contact";
+import Experience from "./components/Experience";
 
 export default function Home() {
   return (
@@ -15,9 +15,9 @@ export default function Home() {
       <About />
       <Work />
       <Whyme />
-      <Contact/>
-      <Testimonial/>
-      <Brand />
+      <Experience />
+      <Testimonial />
+      <Contact />
     </div>
   );
 }
