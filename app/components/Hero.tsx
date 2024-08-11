@@ -5,9 +5,13 @@ const Hero: React.FC = () => {
         <div className="hero-wrap">
           <div className="hero-left">
             <div className="hero-tag-wrap">
-              <div className="hero-tag"> Development </div>
-              <div className="hero-tag"> SEO </div>
-              <div className="hero-tag"> Design </div>
+              <div className="hero-tag uppercase mr-2 bg-white">
+                <img
+                  src="https://cdn.prod.website-files.com/667f26085470c91a9709cff1/667f26085470c91a9709d005_Feather.svg"
+                  alt=""
+                />
+                all-in-one Development
+              </div>
             </div>
             <h1 className="hero-title">
               Crafting unforgettable digital journeys
@@ -15,7 +19,7 @@ const Hero: React.FC = () => {
             <div className="hero-btn-wrap">
               <a
                 id="c2598176-1f9b-1df1-e3df-470053fb9c92"
-                href=""
+                href="#contact"
                 className="hero-btn w-inline-block"
               >
                 <div>Work with me </div>
